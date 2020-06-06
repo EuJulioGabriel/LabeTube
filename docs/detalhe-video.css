@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0 1vw;
+}
+
+header input {
+    margin: 0 5%;
+    padding: 0.5rem;
+    width: 8vw;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;  
+}
+
+#columnsNavBar {
+    border-right: 2px solid black;
+    width: 15vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#barra1 {
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    border-bottom: 1px solid black;
+}
+
+#barra2 {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+#video2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+article section a {
+    margin: 1vh 1vw;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 55vw;
+    height: 80vh;
+    margin: 1vh 0;
+}
+
+#elementos {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 1vh;
+}
+
+#elemento1 {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#elemento2 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 0 1vw;
+}
+
+#elemento2 button:first-child {
+    margin: 0 1vw;
+}
+
+#video section video {
+    width: 80%;
+}
+
+#sugVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30vw;
+    height: 80vh;
+}
+
+#sugVideo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin: 1vh 1vw;
+}
+
+#sugVideo a video {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h1 {
+    margin-left: 1%;
+}
+}
